@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width" > 
+<title></title>
+<style type="text/css">
+td{
+width:550px;
+}
+aa{
+margin-left:70px;
+}
+span{
+color:green;
+font-size:38px;
+}
+.a{
+color:fuchsia;
+font-size:35px;
+}
+input{
+border-radius:20%;
+padding:10px;
+width:80px;
+font-size:20px;
+background:red;
+color:yellow;
+font-weight:bold;
+}
+#e{
+border:8px solid #068982;animation-duration:1.5s;position:relative;background:#173459;top:90px;padding:5px;}
+
+button{
+padding:20px;
+font-size:15px;
+border-radius:20%;
+margin-left:10px;
+background:yellow;
+}
+@keyframes a{0%{top:800px;margin-left:800px;}100%{top:90px;}}
+@keyframes b{0%{margin-left:-800px;top:-60px;}100%{top:90px;}
+
+</style>
+ </head>
+<body>
+<table border="8" >
+<tr>
+<td class="a" colspan="2" ><center>Welcome To This App</center></td>
+</tr>
+ <tr> <td colspan="2" ><span id="1"></span></td> </tr>
+ <tr> <td align="center" colspan="2" >  <input type="number"> <button onClick="fn1()">  Click Here</button> </td> </tr>
+ <tr> <td colspan="2" > <span id="2" ></span> </td> </tr> 
+ <tr> <td>  </td> </tr>
+ </table><br>
+ <center><div id="e"style="animation-name:b;color:gray;border-bottom-width:0px;"><h1>Developed by</h1></div>
+ <div id="e"style="animation-name:a;color:fuchsia;border-top-width:0px;"><h1><i>Md Tariful Islam</i></h1></div></center></div>
+<script type="text/javascript">
+function fn1(){
+v=document.getElementsByTagName("input");
+a=v[0].value;b=a-1;c=a-(-1);
+p=" &nbsp;";
+for(let i=1;i<11;i++)
+//p+=b + "×" +i+ "=" +b*i +" &nbsp; <aa> "+a+ "×" +i+ "=" +a*i+" </aa>&nbsp;  <aa>" +c + "×" +i+ "=" +c*i  +"</aa><br>";
+p+=" &nbsp; <aa> "+a+ "×" +i+ "=" +a*i+" </aa>&nbsp;<br>";
+document.getElementById(2).innerHTML=p;
+}
+</script>
+</body>
+</html>
