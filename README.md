@@ -3,7 +3,7 @@
 Hello, I'm Md Tariful Islam, a passionate Computer Science and Engineering graduate with a strong foundation in mathematics and modern technologies. I'm dedicated to contributing to the fields of **cybersecurity** and **blockchain security**, leveraging my robust engineering knowledge.
 
 ## Education
-###Currently Studying 
+ Currently Studying 
 - 🎓 B.Sc in Computer Science and Engineering
 
 ## Expertise
