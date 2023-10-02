@@ -4,7 +4,7 @@ Hello, I'm Md Tariful Islam, a passionate Computer Science and Engineering gradu
 
 ## Education
  Currently Studying 
-- 🎓 B.Sc in Computer Science and Engineering
+- 🎓 B.Sc in Electrical & Computer Engineering
 
 ## Expertise
 
