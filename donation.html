@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donation Card</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .card {
+            background: #fff;
+            border-radius: 10px;
+            padding: 25px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            width: 420px;
+        }
+        .card h2 {
+            color: #02735E;
+            font-size: 24px;
+        }
+        .card h3 {
+            font-size: 20px;
+            color: #014d3d;
+            margin-top: 10px;
+        }
+        .payment {
+            margin: 15px 0;
+            background: #e9f5f3;
+            padding: 12px;
+            border-radius: 8px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 28px;
+        }
+        .payment-full {
+            margin: 10px 0;
+            background: #d7f2eb;
+            padding: 12px;
+            border-radius: 8px;
+            text-align: left;
+            font-size: 18px;
+            border: 2px solid #02735E;
+        }
+        .copy-btn {
+            background: #02735E;
+            color: #fff;
+            border: none;
+            padding: 6px 12px;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .copy-btn:hover {
+            background: #014d3d;
+        }
+        .footer {
+            margin-top: 10px;
+            font-size: 16px;
+            color: #666;
+        }
+        span {
+        
+            font-size: 26px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <h2>চরশী খলিফাপাড়া বাইতুল আমান জামে মসজিদ</h2>
+        <p><strong>নতুন মসজিদ নির্মাণের জন্য দান সংগ্রহ চলতেছে</strong></p>
+        <div class="payment-full">
+        <h3>
+                ১. বিকাশ/নগদ/রকেট
+        
+        <img src="bnr.jpg" height="5%"  width="20%" ></h3>
+
+            <span>01522102094&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;</span>
+            <button class="copy-btn" onclick="copyText('01522102094')">Copy</button>
+        </div>
+        <div class="payment-full">
+        <h3>২. CellFin অ্যাপ থাকলে</h3>
+
+            <p><strong>ব্যাংক:</strong> Islami Bank PLC</p>
+            <p><strong>CellFin একাউন্ট:</strong> 01522102094 
+                <button class="copy-btn" onclick="copyText('01522102094')">Copy</button>
+            </p>
+        </div>
+        <div class="payment-full">
+        <h3>৩. অন্য ব্যাংক থেকে (NPSB/BEFTN)</h3>
+
+            <p><strong>একাউন্ট হোল্ডার:</strong> Md Tariful Islam</p>
+            <p><strong>একাউন্ট নম্বর:</strong> 3581088253963 
+                <button class="copy-btn" onclick="copyText('3581088253963')">Copy</button>
+            </p>
+            <p><strong>ব্যাংক ও শাখা:</strong> Islami Bank PLC, Dhaka South, Truncation Point
+
+            </p>
+        </div>
+
+        <p class="footer">⚠️ দান পাঠানোর পর নিশ্চিত করুন। আল্লাহর ঘর নির্মাণে আপনার দান হবে চিরস্থায়ী সম্পদ।</p>
+    
+    
+
+
+    </div>
+    
+    
+    
+    
+    
+    </div>
+
+
+
+
+
+    <script>
+        function copyText(text) {
+            navigator.clipboard.writeText(text);
+            alert("কপি করা হয়েছে: " + text);
+        }
+    </script>
+
+</body>
+
+</html>
