@@ -1,6 +1,6 @@
 # Welcome to My GitHub Profile! 👋
 
-Hello, I'm Md Tariful Islam, a passionate Computer Science and Engineering graduate with a strong foundation in mathematics and modern technologies. I'm dedicated to contributing to the fields of **cybersecurity** and **blockchain security**, leveraging my robust engineering knowledge.
+Hello, I'm Md Tariful Islam, a passionate Computer Science and Engineering graduate with a strong foundation in mathematics and modern technologies. I'm dedicated to contributing to the fields of  **Machine Learning**, **cybersecurity** and **blockchain security**, leveraging my robust engineering knowledge.
 
 ## Education
  Currently Studying 
@@ -18,8 +18,10 @@ My education has equipped me with expertise in various fields, including:
 
 I'm particularly interested in contributing to the following areas:
 
+- 🤖 **Machine Learning**
 - 🛡️ **Cybersecurity**
 - 🔗 **Blockchain Security**
+
 
 ## Contact
 
